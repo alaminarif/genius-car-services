@@ -1,0 +1,24 @@
+.register {
+  text-align: center;
+}
+.register-from {
+  width: 50%;
+  margin: 0 auto;
+}
+.register-from input:not([type="checkbox"]) {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 75%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.register-from input[type="checkbox"] {
+  margin-right: 10px;
+}
+.register-from input:focus {
+  outline: 1px solid #555;
+}
+.register span:first-child {
+  color: rgb(37, 37, 205);
+}
